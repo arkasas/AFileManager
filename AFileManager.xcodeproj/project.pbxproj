@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		375143FA1F5C152F00C30B42 /* AFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 375143F81F5C152F00C30B42 /* AFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		375144011F5C155E00C30B42 /* APFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375144001F5C155E00C30B42 /* APFileManager.swift */; };
+		375144011F5C155E00C30B42 /* AFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375144001F5C155E00C30B42 /* AFileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		375143F51F5C152F00C30B42 /* AFileManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFileManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		375143F81F5C152F00C30B42 /* AFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFileManager.h; sourceTree = "<group>"; };
 		375143F91F5C152F00C30B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		375144001F5C155E00C30B42 /* APFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APFileManager.swift; sourceTree = "<group>"; };
+		375144001F5C155E00C30B42 /* AFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,7 @@
 		375143F71F5C152F00C30B42 /* AFileManager */ = {
 			isa = PBXGroup;
 			children = (
-				375144001F5C155E00C30B42 /* APFileManager.swift */,
+				375144001F5C155E00C30B42 /* AFileManager.swift */,
 				375143F81F5C152F00C30B42 /* AFileManager.h */,
 				375143F91F5C152F00C30B42 /* Info.plist */,
 			);
@@ -136,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				375144011F5C155E00C30B42 /* APFileManager.swift in Sources */,
+				375144011F5C155E00C30B42 /* AFileManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +304,7 @@
 				375143FF1F5C152F00C30B42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

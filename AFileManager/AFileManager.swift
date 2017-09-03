@@ -1,5 +1,5 @@
 //
-//  APFileManager.swift
+//  AFileManager.swift
 //  FileManager
 //
 //  Created by Arek on 16.05.2017.
@@ -18,7 +18,7 @@ public enum ImageFormat{
     case PNG
     case JPEG
 }
-public class APFileManager: NSObject {
+public class AFileManager: NSObject {
     public static var path: String!;
     fileprivate static let fileManager = FileManager.default
     public class func start(){
@@ -172,7 +172,7 @@ public class APFileManager: NSObject {
         return urlArray;
     }
 }
-public extension APFileManager{
+public extension AFileManager{
     //SAVE FILE
     public class func SaveFile(name: String, directory: String, data: Data, completion: @escaping (_ result: Bool) -> Void){
         DispatchQueue.global(qos: .background).async {
@@ -305,7 +305,7 @@ public extension APFileManager{
         }
     }
 }
-private extension APFileManager{
+private extension AFileManager{
     class func CheckPath(){
         if path == nil{
             path = GetPath();
